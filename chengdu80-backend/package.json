@@ -1,0 +1,30 @@
+{
+  "name": "node-express-server-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8080 babel-node src/index.js",
+    "test": "echo \"No test specified\" && exit 0",
+    "format": "npx prettier --write .",
+    "gen-models": "sequelize-auto -h localhost -d chengdu80-test --dialect postgres  -o ./src/models"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "uuid": "^7.0.3"
+  }
+}

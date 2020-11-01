@@ -1,0 +1,59 @@
+{
+  "name": "chengdu80-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.4",
+    "credit-card-type": "^9.1.0",
+    "dotenv": "^8.2.0",
+    "history": "^5.0.0",
+    "lodash": "^4.17.20",
+    "lodash.has": "^4.5.2",
+    "prop-types": "latest",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "latest",
+    "redux-form": "^8.3.6",
+    "redux-thunk": "latest",
+    "vis": "^4.21.0-EOL",
+    "vis-data": "latest",
+    "vis-network": "^8.5.1"
+  },
+  "scripts": {
+    "start": "PORT=8081 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "npx prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
+}
